@@ -11,3 +11,4 @@ A project with various simple programs written in C++
 3. Simple Calculator - A basic calculator with +,-,*,/,mod operators.
 4. To-Do-List - A todo list with operators - Add a task, show tasks, delete tasks, load list from a file (and it saves and reads from a file as well).
 5. Temperature Converter - Convert temperature from Clesius to Fahrenheit, Kelvin or Kelvin,Fahrenheit to Celsius.
+6. Bank System - A simple bank system program which a user can open his bank account and deposit,withdraw or display his funds.
