@@ -1,6 +1,15 @@
 #include <iostream>
 #include <iomanip>
 
+
+/**
+ * Temperature Converter - 
+ * Decide whether you want to convert, from Celsius to Farhnheit and Kelvin or From Farhenheit/Kelvin to Celsius.
+*/
+
+/**
+ * Convertion functions.
+*/
 double CelsiusToFahrenheit(double celsius){
     return (celsius * 1.8) + 32;
 }

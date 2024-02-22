@@ -1,10 +1,13 @@
 #include <iostream>
 #include <cstdlib> 
 
+/**
+ * Guess The number between 1-10
+*/
 int main(){
     int randomNum;
     int chosen;
-    randomNum = rand() % 11;
+    randomNum = rand() % 11; // Randomise
 
     std::cout << "Choose a number between 1-10\n>";
     std::cin >> chosen;

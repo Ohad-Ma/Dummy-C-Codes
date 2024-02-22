@@ -2,6 +2,9 @@
 
 using namespace std;
 
+/**
+ * A simple calculator with +,-,*,/, modulo operations.
+*/
 int main(){
     int num_a;
     int num_b;
@@ -15,7 +18,7 @@ int main(){
     
     cout << "The numbers are: " << num_a << " " << num_b << endl;
     cout << "Choose a legal operations: " << endl;
-    cout << "+, -, *, /\n";
+    cout << "+, -, *, /, % (mod)\n";
     cin >> operation;    
     switch (operation)
     {
@@ -38,7 +41,10 @@ int main(){
                 std::cerr << e.what() << '\n';
             }
             break;
+        case '%':
+            cout << num_a % num_b;
         default:
+            // Illegal operation was chosen
             cout << "Invalid operation" << std::endl;
     }
     
