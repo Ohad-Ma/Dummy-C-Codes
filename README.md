@@ -1,4 +1,4 @@
-# Dummy-C-Codes
+# Dummy C++ Programs
 As the title says.. 
 
 ## What's all about?
